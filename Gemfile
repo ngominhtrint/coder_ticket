@@ -36,6 +36,7 @@ gem 'bootstrap', '~> 4.0.0.alpha5'
 gem 'simple_form'
 gem 'font-awesome-rails'
 gem 'font-kit-rails', '~> 1.2.0'
+gem 'devise'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
@@ -49,6 +50,10 @@ group :development, :test do
   gem 'rspec-rails', '~> 3.5', '>= 3.5.2'
   gem 'simplecov', '~> 0.12.0', require: false
   gem 'guard-rspec', require: false
+end
+
+group :development, :test do
+  gem 'factory_girl_rails'
 end
 
 group :development do

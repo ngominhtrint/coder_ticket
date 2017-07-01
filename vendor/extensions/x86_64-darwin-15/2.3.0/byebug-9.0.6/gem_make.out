@@ -1,0 +1,19 @@
+current directory: /Users/tringo/Documents/Projects/Rails/CoderTicket_ra3/vendor/gems/byebug-9.0.6/ext/byebug
+/Users/tringo/.rvm/rubies/ruby-2.3.1/bin/ruby -r ./siteconf20170701-11748-1nssqjg.rb extconf.rb
+creating Makefile
+
+current directory: /Users/tringo/Documents/Projects/Rails/CoderTicket_ra3/vendor/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" clean
+
+current directory: /Users/tringo/Documents/Projects/Rails/CoderTicket_ra3/vendor/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR="
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.bundle
+
+current directory: /Users/tringo/Documents/Projects/Rails/CoderTicket_ra3/vendor/gems/byebug-9.0.6/ext/byebug
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 byebug.bundle ./.gem.20170701-11748-drw62x/byebug
