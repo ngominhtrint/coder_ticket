@@ -1,18 +1,18 @@
-# Homework 3 - *Name of App*
+# Homework 3 - *CoderBillet*
 
-**CoderTicket** is a Ruby on Rails application that allows users to create and buy tickets to cool events.
+**CoderBillet** is a Ruby on Rails application that allows users to create and buy tickets to cool events.
 
 - Submitted by: **Ngo Minh Tri**
-- Time spent: **X** hours
-- URL: **Insert your Heroku URL here**
+- Time spent: **14** hours
+- URL: **https://coder-billet.herokuapp.com/**
 - SimpleCov Test Coverage: [coverage/index.html](coverage/index.html)
 
 ## User Stories
 
 The following **required** functionality is complete:
 
-* [ ] Implement required user stories
-* [ ] 10 model tests, 2 route tests, 2 controller tests, 2 view tests.
+* [x] Implement required user stories
+* [x] 10 model tests, 2 route tests, 2 controller tests, 2 view tests.
 
 The person with best test coverage will win a small present from the instructor :)
 
@@ -73,7 +73,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2017] [Tri Ngo Minh]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
