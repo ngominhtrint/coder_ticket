@@ -9,7 +9,18 @@ Rails.application.routes.draw do
   resources :events do
     resources :tickets
     resources :ticket_types, only: [:new, :create]
+    
+    member do
+      post 'publish' => 'events#have_enough_ticket_types?'
+    end
+
+    collection do
+      get 'my' => 'events#my_events'
+    end
   end
+
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
